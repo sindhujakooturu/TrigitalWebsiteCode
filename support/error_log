@@ -1,0 +1,126 @@
+[19-Mar-2015 09:05:26 UTC] PHP Fatal error:  Uncaught exception 'Exception' in /home/avshyd/public_html/support/include/class.orm.php:222
+Stack trace:
+#0 /home/avshyd/public_html/support/include/class.user.php(530): VerySimpleModel->save()
+#1 /home/avshyd/public_html/support/profile.php(29): User->updateInfo(Array, Array)
+#2 /home/avshyd/public_html/support/client.inc.php(87): require('/home/avshyd/pu...')
+#3 /home/avshyd/public_html/support/secure.inc.php(18): require_once('/home/avshyd/pu...')
+#4 /home/avshyd/public_html/support/profile.php(19): require('/home/avshyd/pu...')
+#5 {main}
+  thrown in /home/avshyd/public_html/support/include/class.orm.php on line 222
+[25-Mar-2015 05:30:46 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/avshyd/public_html/support/include/class.user.php on line 1009
+[25-Mar-2015 05:30:46 UTC] PHP Warning:  mysqli_stmt::bind_param(): Invalid type or no types specified in /home/avshyd/public_html/support/include/class.orm.php on line 1056
+[25-Mar-2015 05:30:46 UTC] PHP Fatal error:  Uncaught exception 'OrmException' with message 'Unable to execute query: No data supplied for parameters in prepared statement' in /home/avshyd/public_html/support/include/class.orm.php:1033
+Stack trace:
+#0 /home/avshyd/public_html/support/include/class.orm.php(1022): MysqlExecutor->execute()
+#1 /home/avshyd/public_html/support/include/class.orm.php(1090): MysqlExecutor->_prepare()
+#2 /home/avshyd/public_html/support/include/class.orm.php(458): MysqlExecutor->getArray()
+#3 /home/avshyd/public_html/support/include/class.orm.php(469): ModelInstanceIterator->fillTo(9223372036854775807)
+#4 /home/avshyd/public_html/support/include/class.orm.php(351): ModelInstanceIterator->asArray()
+#5 /home/avshyd/public_html/support/include/class.orm.php(355): QuerySet->all()
+#6 /home/avshyd/public_html/support/include/class.orm.php(176): QuerySet->one()
+#7 /home/avshyd/public_html/support/include/class.user.php(1010): VerySimpleModel::lookup(Array)
+#8 /home/avshyd/public_html/support/account.php(71): UserAccount::lookupByUserna in /home/avshyd/public_html/support/include/class.orm.php on line 1033
+[25-Mar-2015 05:32:11 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/avshyd/public_html/support/include/class.user.php on line 1009
+[25-Mar-2015 05:32:11 UTC] PHP Warning:  mysqli_stmt::bind_param(): Invalid type or no types specified in /home/avshyd/public_html/support/include/class.orm.php on line 1056
+[25-Mar-2015 05:32:11 UTC] PHP Fatal error:  Uncaught exception 'OrmException' with message 'Unable to execute query: No data supplied for parameters in prepared statement' in /home/avshyd/public_html/support/include/class.orm.php:1033
+Stack trace:
+#0 /home/avshyd/public_html/support/include/class.orm.php(1022): MysqlExecutor->execute()
+#1 /home/avshyd/public_html/support/include/class.orm.php(1090): MysqlExecutor->_prepare()
+#2 /home/avshyd/public_html/support/include/class.orm.php(458): MysqlExecutor->getArray()
+#3 /home/avshyd/public_html/support/include/class.orm.php(469): ModelInstanceIterator->fillTo(9223372036854775807)
+#4 /home/avshyd/public_html/support/include/class.orm.php(351): ModelInstanceIterator->asArray()
+#5 /home/avshyd/public_html/support/include/class.orm.php(355): QuerySet->all()
+#6 /home/avshyd/public_html/support/include/class.orm.php(176): QuerySet->one()
+#7 /home/avshyd/public_html/support/include/class.user.php(1010): VerySimpleModel::lookup(Array)
+#8 /home/avshyd/public_html/support/account.php(71): UserAccount::lookupByUserna in /home/avshyd/public_html/support/include/class.orm.php on line 1033
+[25-Mar-2015 05:32:37 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/avshyd/public_html/support/include/class.user.php on line 1009
+[25-Mar-2015 05:32:37 UTC] PHP Warning:  mysqli_stmt::bind_param(): Invalid type or no types specified in /home/avshyd/public_html/support/include/class.orm.php on line 1056
+[25-Mar-2015 05:32:37 UTC] PHP Fatal error:  Uncaught exception 'OrmException' with message 'Unable to execute query: No data supplied for parameters in prepared statement' in /home/avshyd/public_html/support/include/class.orm.php:1033
+Stack trace:
+#0 /home/avshyd/public_html/support/include/class.orm.php(1022): MysqlExecutor->execute()
+#1 /home/avshyd/public_html/support/include/class.orm.php(1090): MysqlExecutor->_prepare()
+#2 /home/avshyd/public_html/support/include/class.orm.php(458): MysqlExecutor->getArray()
+#3 /home/avshyd/public_html/support/include/class.orm.php(469): ModelInstanceIterator->fillTo(9223372036854775807)
+#4 /home/avshyd/public_html/support/include/class.orm.php(351): ModelInstanceIterator->asArray()
+#5 /home/avshyd/public_html/support/include/class.orm.php(355): QuerySet->all()
+#6 /home/avshyd/public_html/support/include/class.orm.php(176): QuerySet->one()
+#7 /home/avshyd/public_html/support/include/class.user.php(1010): VerySimpleModel::lookup(Array)
+#8 /home/avshyd/public_html/support/account.php(71): UserAccount::lookupByUserna in /home/avshyd/public_html/support/include/class.orm.php on line 1033
+[25-Mar-2015 05:32:44 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/avshyd/public_html/support/include/class.user.php on line 1009
+[25-Mar-2015 05:32:44 UTC] PHP Warning:  mysqli_stmt::bind_param(): Invalid type or no types specified in /home/avshyd/public_html/support/include/class.orm.php on line 1056
+[25-Mar-2015 05:32:44 UTC] PHP Fatal error:  Uncaught exception 'OrmException' with message 'Unable to execute query: No data supplied for parameters in prepared statement' in /home/avshyd/public_html/support/include/class.orm.php:1033
+Stack trace:
+#0 /home/avshyd/public_html/support/include/class.orm.php(1022): MysqlExecutor->execute()
+#1 /home/avshyd/public_html/support/include/class.orm.php(1090): MysqlExecutor->_prepare()
+#2 /home/avshyd/public_html/support/include/class.orm.php(458): MysqlExecutor->getArray()
+#3 /home/avshyd/public_html/support/include/class.orm.php(469): ModelInstanceIterator->fillTo(9223372036854775807)
+#4 /home/avshyd/public_html/support/include/class.orm.php(351): ModelInstanceIterator->asArray()
+#5 /home/avshyd/public_html/support/include/class.orm.php(355): QuerySet->all()
+#6 /home/avshyd/public_html/support/include/class.orm.php(176): QuerySet->one()
+#7 /home/avshyd/public_html/support/include/class.user.php(1010): VerySimpleModel::lookup(Array)
+#8 /home/avshyd/public_html/support/account.php(71): UserAccount::lookupByUserna in /home/avshyd/public_html/support/include/class.orm.php on line 1033
+[25-Mar-2015 05:37:54 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/avshyd/public_html/support/include/class.user.php on line 1009
+[25-Mar-2015 05:37:54 UTC] PHP Warning:  mysqli_stmt::bind_param(): Invalid type or no types specified in /home/avshyd/public_html/support/include/class.orm.php on line 1056
+[25-Mar-2015 05:37:54 UTC] PHP Fatal error:  Uncaught exception 'OrmException' with message 'Unable to execute query: No data supplied for parameters in prepared statement' in /home/avshyd/public_html/support/include/class.orm.php:1033
+Stack trace:
+#0 /home/avshyd/public_html/support/include/class.orm.php(1022): MysqlExecutor->execute()
+#1 /home/avshyd/public_html/support/include/class.orm.php(1090): MysqlExecutor->_prepare()
+#2 /home/avshyd/public_html/support/include/class.orm.php(458): MysqlExecutor->getArray()
+#3 /home/avshyd/public_html/support/include/class.orm.php(469): ModelInstanceIterator->fillTo(9223372036854775807)
+#4 /home/avshyd/public_html/support/include/class.orm.php(351): ModelInstanceIterator->asArray()
+#5 /home/avshyd/public_html/support/include/class.orm.php(355): QuerySet->all()
+#6 /home/avshyd/public_html/support/include/class.orm.php(176): QuerySet->one()
+#7 /home/avshyd/public_html/support/include/class.user.php(1010): VerySimpleModel::lookup(Array)
+#8 /home/avshyd/public_html/support/account.php(71): UserAccount::lookupByUserna in /home/avshyd/public_html/support/include/class.orm.php on line 1033
+[25-Mar-2015 05:38:31 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/avshyd/public_html/support/include/class.user.php on line 1009
+[25-Mar-2015 05:38:31 UTC] PHP Warning:  mysqli_stmt::bind_param(): Invalid type or no types specified in /home/avshyd/public_html/support/include/class.orm.php on line 1056
+[25-Mar-2015 05:38:31 UTC] PHP Fatal error:  Uncaught exception 'OrmException' with message 'Unable to execute query: No data supplied for parameters in prepared statement' in /home/avshyd/public_html/support/include/class.orm.php:1033
+Stack trace:
+#0 /home/avshyd/public_html/support/include/class.orm.php(1022): MysqlExecutor->execute()
+#1 /home/avshyd/public_html/support/include/class.orm.php(1090): MysqlExecutor->_prepare()
+#2 /home/avshyd/public_html/support/include/class.orm.php(458): MysqlExecutor->getArray()
+#3 /home/avshyd/public_html/support/include/class.orm.php(469): ModelInstanceIterator->fillTo(9223372036854775807)
+#4 /home/avshyd/public_html/support/include/class.orm.php(351): ModelInstanceIterator->asArray()
+#5 /home/avshyd/public_html/support/include/class.orm.php(355): QuerySet->all()
+#6 /home/avshyd/public_html/support/include/class.orm.php(176): QuerySet->one()
+#7 /home/avshyd/public_html/support/include/class.user.php(1010): VerySimpleModel::lookup(Array)
+#8 /home/avshyd/public_html/support/account.php(71): UserAccount::lookupByUserna in /home/avshyd/public_html/support/include/class.orm.php on line 1033
+[25-Mar-2015 05:39:41 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/avshyd/public_html/support/include/class.user.php on line 1009
+[25-Mar-2015 05:39:41 UTC] PHP Warning:  mysqli_stmt::bind_param(): Invalid type or no types specified in /home/avshyd/public_html/support/include/class.orm.php on line 1056
+[25-Mar-2015 05:39:41 UTC] PHP Fatal error:  Uncaught exception 'OrmException' with message 'Unable to execute query: No data supplied for parameters in prepared statement' in /home/avshyd/public_html/support/include/class.orm.php:1033
+Stack trace:
+#0 /home/avshyd/public_html/support/include/class.orm.php(1022): MysqlExecutor->execute()
+#1 /home/avshyd/public_html/support/include/class.orm.php(1090): MysqlExecutor->_prepare()
+#2 /home/avshyd/public_html/support/include/class.orm.php(458): MysqlExecutor->getArray()
+#3 /home/avshyd/public_html/support/include/class.orm.php(469): ModelInstanceIterator->fillTo(9223372036854775807)
+#4 /home/avshyd/public_html/support/include/class.orm.php(351): ModelInstanceIterator->asArray()
+#5 /home/avshyd/public_html/support/include/class.orm.php(355): QuerySet->all()
+#6 /home/avshyd/public_html/support/include/class.orm.php(176): QuerySet->one()
+#7 /home/avshyd/public_html/support/include/class.user.php(1010): VerySimpleModel::lookup(Array)
+#8 /home/avshyd/public_html/support/account.php(71): UserAccount::lookupByUserna in /home/avshyd/public_html/support/include/class.orm.php on line 1033
+[25-Mar-2015 05:39:49 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/avshyd/public_html/support/include/class.user.php on line 1009
+[25-Mar-2015 05:39:49 UTC] PHP Warning:  mysqli_stmt::bind_param(): Invalid type or no types specified in /home/avshyd/public_html/support/include/class.orm.php on line 1056
+[25-Mar-2015 05:39:49 UTC] PHP Fatal error:  Uncaught exception 'OrmException' with message 'Unable to execute query: No data supplied for parameters in prepared statement' in /home/avshyd/public_html/support/include/class.orm.php:1033
+Stack trace:
+#0 /home/avshyd/public_html/support/include/class.orm.php(1022): MysqlExecutor->execute()
+#1 /home/avshyd/public_html/support/include/class.orm.php(1090): MysqlExecutor->_prepare()
+#2 /home/avshyd/public_html/support/include/class.orm.php(458): MysqlExecutor->getArray()
+#3 /home/avshyd/public_html/support/include/class.orm.php(469): ModelInstanceIterator->fillTo(9223372036854775807)
+#4 /home/avshyd/public_html/support/include/class.orm.php(351): ModelInstanceIterator->asArray()
+#5 /home/avshyd/public_html/support/include/class.orm.php(355): QuerySet->all()
+#6 /home/avshyd/public_html/support/include/class.orm.php(176): QuerySet->one()
+#7 /home/avshyd/public_html/support/include/class.user.php(1010): VerySimpleModel::lookup(Array)
+#8 /home/avshyd/public_html/support/account.php(71): UserAccount::lookupByUserna in /home/avshyd/public_html/support/include/class.orm.php on line 1033
+[25-Mar-2015 05:40:02 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/avshyd/public_html/support/include/class.user.php on line 1009
+[25-Mar-2015 05:40:02 UTC] PHP Warning:  mysqli_stmt::bind_param(): Invalid type or no types specified in /home/avshyd/public_html/support/include/class.orm.php on line 1056
+[25-Mar-2015 05:40:02 UTC] PHP Fatal error:  Uncaught exception 'OrmException' with message 'Unable to execute query: No data supplied for parameters in prepared statement' in /home/avshyd/public_html/support/include/class.orm.php:1033
+Stack trace:
+#0 /home/avshyd/public_html/support/include/class.orm.php(1022): MysqlExecutor->execute()
+#1 /home/avshyd/public_html/support/include/class.orm.php(1090): MysqlExecutor->_prepare()
+#2 /home/avshyd/public_html/support/include/class.orm.php(458): MysqlExecutor->getArray()
+#3 /home/avshyd/public_html/support/include/class.orm.php(469): ModelInstanceIterator->fillTo(9223372036854775807)
+#4 /home/avshyd/public_html/support/include/class.orm.php(351): ModelInstanceIterator->asArray()
+#5 /home/avshyd/public_html/support/include/class.orm.php(355): QuerySet->all()
+#6 /home/avshyd/public_html/support/include/class.orm.php(176): QuerySet->one()
+#7 /home/avshyd/public_html/support/include/class.user.php(1010): VerySimpleModel::lookup(Array)
+#8 /home/avshyd/public_html/support/account.php(71): UserAccount::lookupByUserna in /home/avshyd/public_html/support/include/class.orm.php on line 1033
